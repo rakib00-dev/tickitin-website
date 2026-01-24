@@ -1,61 +1,37 @@
-<script setup>
-  import HeroBgLineEelement from "../common/HeroBgLineEelement.vue";
-  import LargeButton from "../common/LargeButton.vue";
-  import { companies } from "../../utils/heroComapnies";
-</script>
-
 <template>
-  <section class="py-4 md:py-10">
-    <div class="baseContainer grid gap-17 md:gap-20 overflow-hidden">
-      <div class="grid gap-8 place-items-center">
-        <h1
-          class="text-3xl md:text-5xl lg:text-6xl text-center grid font-[400] leading-[54px] md: lg:leading-[84px]"
+  <section
+    class="max-w-7xl mx-auto px-6 md:px-16 py-16 md:py-24 flex flex-col md:flex-row items-center gap-16"
+  >
+    <div class="md:w-1/2">
+      <h1
+        class="text-6xl font-black mb-8 leading-tight tracking-tight text-slate-900"
+      >
+        Hero Section
+      </h1>
+      <p class="text-lg text-slate-500 leading-relaxed mb-10 max-w-lg">
+        Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
+        legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu
+        eum an brute copiosae hendrerit.
+      </p>
+      <div class="flex gap-4">
+        <button
+          class="bg-indigo-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-indigo-700 transition shadow-xl shadow-indigo-100"
         >
-          Accelerate Your Development & QA Workflow with
-          <span class="text-[var(--primary-color)] font-[700]"
-            >AI-Powered Automation</span
-          >
-        </h1>
-        <div
-          class="relative grid gap-12 md:gap-8 place-items-center md:px-[20%]"
+          Button
+        </button>
+        <button
+          class="border-2 border-slate-200 text-slate-700 px-8 py-4 rounded-xl font-bold hover:bg-slate-50 transition"
         >
-          <div class="grid place-items-center">
-            <HeroBgLineEelement class="w-full absolute -z-10 max-md:hidden" />
-            <p class="text-center max-md:text-sm md:px-5 max-md:leading-[24px]">
-              DartCode AI streamlines your QA and release processes by
-              automating pull request management, coordinating multi-repository
-              operations, and enhancing quality assurance.
-            </p>
-          </div>
-
-          <div class="grid place-items-center gap-5 md:gap-[25px] w-full">
-            <LargeButton
-              -custom-class="bg-[var(--primary-color)] text-white hover:bg-[var(--primary-dark-color)] hover:font-medium px-4"
-              padding-x
-              title="get started"
-            />
-            <span
-              class="w-full bg-[var(--primary-light-color)] text-[var(--primary-color)] text-center p-1"
-            >
-              Explore
-              <a href="#" class="underline leading-[24px] text-[1rem]"
-                >DartCode AI for free.</a
-              ></span
-            >
-          </div>
-        </div>
+          Button
+        </button>
       </div>
-      <div class="grid place-items-center gap-3 md:gap-16">
-        <span>Trusted by teams building fast, shipping smart</span>
-        <div class="flex flex-wrap justify-center items-center gap-3 w-full">
-          <div
-            v-for="(svg, i) in companies"
-            :key="`${i}heroCompanyImages`"
-            v-html="svg"
-            class="flex gap-[auto]"
-          />
-        </div>
-      </div>
+    </div>
+    <div class="md:w-1/2">
+      <img
+        src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=1000"
+        alt="Main Event"
+        class="rounded-[2.5rem] shadow-2xl object-cover w-full h-[500px]"
+      />
     </div>
   </section>
 </template>
