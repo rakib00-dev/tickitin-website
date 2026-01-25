@@ -1,5 +1,6 @@
 <template>
-  <footer
+  <footer class="text-center py-3 bg-[#59bbd4] text-white">Your Footer</footer>
+  <!-- <footer
     class="border-t border-slate-100 px-6 md:px-16 py-12 flex flex-col md:flex-row justify-between items-center text-slate-500"
   >
     <div class="text-xl font-black text-indigo-600 mb-6 md:mb-0">Logo</div>
@@ -22,5 +23,5 @@
         ><i class="fa-brands fa-x-twitter"></i
       ></a>
     </div>
-  </footer>
+  </footer> -->
 </template>

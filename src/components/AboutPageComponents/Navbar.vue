@@ -1,5 +1,12 @@
+<script setup lang="ts">
+  import { RouterLink } from "vue-router";
+</script>
+
 <template>
-  <nav
+  <nav class="text-center py-3 bg-[#59bbd4] text-white">
+    <RouterLink to="/">Your Navbar</RouterLink>
+  </nav>
+  <!-- <nav
     class="flex items-center justify-between px-6 md:px-16 py-5 sticky top-0 bg-white/90 backdrop-blur-md z-50 border-b border-gray-100"
   >
     <div
@@ -20,5 +27,5 @@
         Button
       </button>
     </div>
-  </nav>
+  </nav> -->
 </template>

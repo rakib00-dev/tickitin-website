@@ -28,7 +28,7 @@
     </div>
     <div class="md:w-1/2">
       <img
-        src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=1000"
+        src="https://storage.googleapis.com/tickitin_upload/admin_9%2F1744277818_0.png"
         alt="Main Event"
         class="rounded-[2.5rem] shadow-2xl object-cover w-full h-[500px]"
       />
