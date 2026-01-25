@@ -1,16 +1,3 @@
-<script setup>
-  import { ref, watch } from "vue";
-  import { X } from "lucide-vue-next";
-  import NavButtonsGroup from "../common/NavButtonsGroup.vue";
-  import { RouterLink, useRoute } from "vue-router";
-
-  const isNavMenuOpen = ref(false);
-
-  const route = useRoute();
-
-  console.log(isNavMenuOpen.value);
-</script>
-
 <template>
   <nav
     class="flex items-center justify-between px-6 md:px-16 py-5 sticky top-0 bg-white/90 backdrop-blur-md z-50 border-b border-gray-100"

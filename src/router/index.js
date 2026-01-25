@@ -1,19 +1,20 @@
 import { createWebHistory, createRouter } from "vue-router";
 import AboutPage from "../pages/AboutPage.vue";
-import NotFound from "../components/common/NotFound.vue";
+import DicrectionHomePage from "../pages/DicrectionHomePage.vue";
+import ContactUs from "../pages/ContactUs.vue";
 
 const routes = [
   {
     path: "/",
-    component: AboutPage,
+    component: DicrectionHomePage,
   },
   {
     path: "/about",
-    component: NotFound,
+    component: AboutPage,
   },
   {
-    path: "/pricing",
-    component: NotFound,
+    path: "/contact-us",
+    component: ContactUs,
   },
 ];
 

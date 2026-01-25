@@ -1,9 +1,9 @@
 <script setup lang="ts">
-  import Hero from "../components/Hero.vue";
-  import OurMisson from "../components/OurMisson.vue";
-  import TheProblemWeSolve from "../components/TheProblemWeSolve.vue";
-  import WhoWeAre from "../components/WhoWeAre.vue";
-  import WhyChooseUs from "../components/WhyChooseUs.vue";
+  import Hero from "../components/AboutPageComponents/Hero.vue";
+  import OurMisson from "../components/AboutPageComponents/OurMisson.vue";
+  import TheProblemWeSolve from "../components/AboutPageComponents/TheProblemWeSolve.vue";
+  import WhoWeAre from "../components/AboutPageComponents/WhoWeAre.vue";
+  import WhyChooseUs from "../components/AboutPageComponents/WhyChooseUs.vue";
 </script>
 
 <template>
