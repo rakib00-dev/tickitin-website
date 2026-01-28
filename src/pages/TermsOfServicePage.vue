@@ -1,9 +1,14 @@
+<script setup lang="ts">
+  import { RouterLink } from "vue-router";
+</script>
+
 <template>
   <!-- Main landmark: one per page -->
   <main class="min-h-screen bg-gray-50 text-gray-800">
     <!-- Article: standalone legal document -->
     <article class="max-w-5xl mx-auto px-4 py-16">
       <!-- Header: title + meta -->
+
       <header class="mb-8">
         <h1 class="text-4xl font-bold mb-2">Tickitin Terms of Service</h1>
         <p class="text-sm text-gray-500">
@@ -61,8 +66,10 @@
             account credentials and all activity under your account. Suspected
             unauthorized access should be reported to
             <a href="mailto:support@tickitin.com" class="text-blue-600 ml-1">
-              support@tickitin.com </a
-            >.
+              support@tickitin.com
+            </a>
+
+            .
           </p>
         </section>
 
@@ -147,8 +154,11 @@
           <p>
             Questions about these Terms may be sent to
             <a href="mailto:support@tickitin.com" class="text-blue-600 ml-1">
-              support@tickitin.com </a
-            >.
+              support@tickitin.com.
+            </a>
+            <RouterLink to="/contact-us" class="font-bold !underline">
+              Visit Contact</RouterLink
+            >
           </p>
         </section>
       </section>
