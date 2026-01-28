@@ -13,5 +13,12 @@
       <RouterLink to="/contact-us">Go To <u>Contact Us</u> Page</RouterLink>
       to
     </div>
+
+    <div class="cursor-pointer">
+      <RouterLink to="/terms-of-service"
+        >Go To <u>Terms Of Service</u> Page</RouterLink
+      >
+      to
+    </div>
   </div>
 </template>

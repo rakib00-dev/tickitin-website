@@ -1,7 +1,8 @@
 import { createWebHistory, createRouter } from "vue-router";
 import AboutPage from "../pages/AboutPage.vue";
 import DicrectionHomePage from "../pages/DicrectionHomePage.vue";
-import ContactUs from "../pages/ContactUs.vue";
+import ContactUsPage from "../pages/ContactUsPage.vue";
+import TermsOfServicePage from "../pages/TermsOfServicePage.vue";
 
 const routes = [
   {
@@ -14,7 +15,11 @@ const routes = [
   },
   {
     path: "/contact-us",
-    component: ContactUs,
+    component: ContactUsPage,
+  },
+  {
+    path: "/terms-of-service",
+    component: TermsOfServicePage,
   },
 ];
 

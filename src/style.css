@@ -1,45 +1,273 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import "tailwindcss";
 
 :root {
-  --primary-color: #42389e;
-  --primary-dark-color: #2e276f;
-  --primary-light-color: #e6e7f4;
-  --gray-color: #4b4b4b;
-  --light-gray-color: #8a8a8a;
-  --card-yellow-color: #f9a71e;
-  --border-color: #42489e33;
-  --carousel-card-gray-color: #e1e2f0;
-  --footer-color: #e6e7f3;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-  --background: #fdfdff;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --tick-box-shadow: 0 0 4px 1px rgba(89, 187, 212, 1);
+  --van-base-font: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   scroll-behavior: smooth;
+  touch-action: manipulation; /* 限制双击缩放等 */
 }
 
 body {
-  font-family: "Merriweather Sans", sans-serif;
-  font-size: 1rem;
-  font-weight: 300;
-  background-color: var(--background);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #030504;
+  background-color: #fff;
 }
 
-.baseContainer {
-  @apply max-w-[85rem] mx-auto w-full px-6 md:px-16 lg:px-24 py-3 relative;
+a {
+  font-weight: 500;
+  color: inherit;
+  text-decoration: inherit;
+}
+a:hover {
+  color: inherit !important;
+}
+div {
+  box-sizing: border-box;
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "DM Sans", sans-serif;
+img {
+  /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+  border: 0;
+  /* 取消图片底侧有空白缝隙的问题 */
+  vertical-align: middle;
 }
 
-.mainSectionHeader {
-  @apply text-center text-[28px] lg:text-[2.625rem] font-semibold text-[var(--primary-color)] leading-[100%] md:leading-[120%] max-md:px-4;
-  /* @apply text-center text-2xl lg:text-[2.625rem] font-semibold text-[var(--primary-color)] leading-[120%]; */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.abs-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 2;
+}
+.bold {
+  font-weight: 600;
+}
+.block {
+  display: block;
+}
+.full {
+  width: 100%;
+  height: 100%;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-cap {
+  text-transform: capitalize;
+}
+
+#app {
+  width: 100%;
+  min-height: 100%;
+}
+
+/* iOS Safari 聚焦输入自动放大规避：保证 16px 以上字号 */
+input,
+select,
+textarea {
+  font-size: 16px !important;
+}
+
+/* 禁止 iOS 长按呼出菜单、选择复制，减少误触导致的缩放 */
+* {
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.bg-center-center {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.bg-center-bottom {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ellipsis2 {
+  white-space: wrap;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+}
+.ellipsis3 {
+  white-space: wrap;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+}
+.pointer {
+  cursor: pointer;
+}
+.select-none {
+  user-select: none;
+}
+.trans-linear {
+  transition: all 0.15s linear;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.flex-row-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.start-start {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.start-center {
+  justify-content: flex-start;
+  align-items: center;
+}
+.start-stretch {
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.center-center {
+  justify-content: center;
+  align-items: center;
+}
+.end-center {
+  justify-content: flex-end;
+  align-items: center;
+}
+.around-center {
+  justify-content: space-around;
+  align-items: center;
+}
+.between-start {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.between-center {
+  justify-content: space-between;
+  align-items: center;
+}
+.between-end {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.between-stretch {
+  justify-content: space-between;
+  align-items: stretch;
+}
+.stretch-stretch {
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.flex-grow-2 {
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+.flex-grow-3 {
+  flex-grow: 3;
+  flex-shrink: 3;
+}
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+}
+
+/* 滚动条的轨道 */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* 滚动条的滑块 */
+::-webkit-scrollbar-thumb {
+  background-color: lightgrey;
+}
+
+/* 滑块悬停效果 */
+::-webkit-scrollbar-thumb:hover {
+  background-color: grey;
+  border-color: grey;
 }
