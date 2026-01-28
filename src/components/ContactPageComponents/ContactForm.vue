@@ -11,6 +11,10 @@
       <h2 class="w-full text-3xl font-bold leading-tight text-center">
         Let's Get In Touch
       </h2>
+      <p>
+        Have a project in mind or a question to ask? Get in touch with us and
+        let&apos;s talk about how we can help bring your ideas to life.
+      </p>
       <div>
         <label for="name" class="block mb-1 ml-1">Name</label>
         <input
