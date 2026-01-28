@@ -8,11 +8,23 @@ const routes = [
   {
     path: "/",
     component: DicrectionHomePage,
+    meta: {
+      title: "Welcome to Tickitin",
+      description:
+        "Tickitin terms of service explain rules for accounts, tickets, payments, and safety, so you know what to expect. Read now and use Tickitin with ease.",
+      keywords: "",
+    },
   },
   {
     path: "/about",
     name: "About",
     component: AboutPage,
+    meta: {
+      title: "About Us | Tickitin ",
+      description:
+        "Need help with tickets, orders, or general questions? The Tickitin Support team is available every day to assist with ticket access, billing issues, event changes, and more. Reach out by email for fast, reliable help most inquiries are answered within 24 hours.",
+      keywords: "about, tickitin, help, information",
+    },
   },
   {
     path: "/contact-us",
@@ -40,10 +52,8 @@ const router = createRouter({
 router.afterEach((to) => {
   const head = document.head;
 
-  // Update title
   if (to.meta.title) document.title = to.meta.title;
 
-  // Update description
   let desc = head.querySelector('meta[name="description"]');
   if (!desc) {
     desc = document.createElement("meta");
@@ -52,7 +62,6 @@ router.afterEach((to) => {
   }
   desc.setAttribute("content", to.meta.description || "");
 
-  // Update keywords
   let keywords = head.querySelector('meta[name="keywords"]');
   if (!keywords) {
     keywords = document.createElement("meta");
