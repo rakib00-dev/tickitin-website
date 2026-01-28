@@ -1,5 +1,5 @@
 <template>
-  <section class="py-2 px-4 bg-blue-50 my-5">
+  <section class="max-w-7xl mx-auto py-2 px-4 bg-blue-50 my-5">
     <div class="grid place-items-center md:grid-cols-2">
       <img
         src="/contact_us/hero_faq.jpg"

@@ -1,5 +1,5 @@
 <template>
-  <section class="p-6">
+  <section class="p-6 max-w-7xl mx-auto">
     <div class="py-6 text-center flex justify-center items-center gap-4">
       <span class="flex justify-center w-1/3 h-[1px] bg-black"></span>
       <div class="w-fit">Contact Us</div>

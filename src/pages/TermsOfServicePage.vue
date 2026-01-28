@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <main class="min-h-screen bg-gray-50 text-gray-800">
+  <main class="max-w-7xl mx-auto min-h-screen bg-gray-50 text-gray-800">
     <article class="max-w-5xl mx-auto px-4 py-16">
       <header class="mb-8">
         <h1 class="text-4xl font-bold mb-2">Tickitin Terms of Service</h1>
