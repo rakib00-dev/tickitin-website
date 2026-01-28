@@ -16,8 +16,8 @@
         <p>
           These Terms of Service (“Terms”) are a binding agreement between you
           and <strong>Tickitin Experiences LLC</strong> (“Tickitin,” “we,”
-          “us”). They govern your access to and use of Tickitin’s websites,
-          mobile applications, and related services (collectively, the
+          “us”). They govern your access to and use of Tickitin{{ `’` }}s
+          websites, mobile applications, and related services (collectively, the
           “Platform”).
         </p>
       </section>
@@ -27,8 +27,8 @@
           <h2 class="text-xl font-semibold mb-2">Eligibility</h2>
           <p>
             You must be at least 18 years old to create an account and make
-            purchases. Users aged 13–17 may use the Platform only with a parent
-            or legal guardian’s express consent and supervision.
+            purchases. Users aged 13{{ `–` }}17 may use the Platform only with a
+            parent or legal guardian{{ `’` }}s express consent and supervision.
           </p>
         </section>
 
@@ -129,9 +129,9 @@
         <section class="border border-gray-300 rounded-lg p-4">
           <h2 class="text-xl font-semibold mb-2">Limitation of Liability</h2>
           <p>
-            Tickitin’s total liability for any claim will not exceed the greater
-            of $100 or the amount paid for the applicable order, except where
-            prohibited by law.
+            Tickitin{{ `’` }}s total liability for any claim will not exceed the
+            greater of $100 or the amount paid for the applicable order, except
+            where prohibited by law.
           </p>
         </section>
 
