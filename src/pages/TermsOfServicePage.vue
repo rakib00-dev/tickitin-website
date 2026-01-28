@@ -1,7 +1,3 @@
-<script setup lang="ts">
-  import { RouterLink } from "vue-router";
-</script>
-
 <template>
   <!-- Main landmark: one per page -->
   <main class="min-h-screen bg-gray-50 text-gray-800">
@@ -165,3 +161,29 @@
     </article>
   </main>
 </template>
+
+<script>
+  import { RouterLink } from "vue-router";
+  import { computed, reactive } from "vue";
+  import { useHead } from "@unhead/vue";
+
+  export default {
+    setup() {
+      const siteData = reactive({
+        title: `My website`,
+        description: `My beautiful website`,
+      });
+
+      useHead({
+        // Can be static or computed
+        title: computed(() => siteData.title),
+        meta: [
+          {
+            name: `description`,
+            content: computed(() => siteData.description),
+          },
+        ],
+      });
+    },
+  };
+</script>

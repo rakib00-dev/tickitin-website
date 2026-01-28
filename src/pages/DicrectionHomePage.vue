@@ -1,7 +1,3 @@
-<script setup lang="ts">
-  import { RouterView } from "vue-router";
-</script>
-
 <template>
   <div class="grid place-items-center">
     <div class="cursor-pointer">
