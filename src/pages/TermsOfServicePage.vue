@@ -1,10 +1,10 @@
-<template>
-  <!-- Main landmark: one per page -->
-  <main class="min-h-screen bg-gray-50 text-gray-800">
-    <!-- Article: standalone legal document -->
-    <article class="max-w-5xl mx-auto px-4 py-16">
-      <!-- Header: title + meta -->
+<script setup>
+  import { RouterLink } from "vue-router";
+</script>
 
+<template>
+  <main class="min-h-screen bg-gray-50 text-gray-800">
+    <article class="max-w-5xl mx-auto px-4 py-16">
       <header class="mb-8">
         <h1 class="text-4xl font-bold mb-2">Tickitin Terms of Service</h1>
         <p class="text-sm text-gray-500">
@@ -12,7 +12,6 @@
         </p>
       </header>
 
-      <!-- Intro -->
       <section class="mb-6 leading-relaxed">
         <p>
           These Terms of Service (“Terms”) are a binding agreement between you
@@ -23,7 +22,6 @@
         </p>
       </section>
 
-      <!-- Legal clauses -->
       <section class="space-y-4 leading-relaxed">
         <section class="border border-gray-300 rounded-lg p-4">
           <h2 class="text-xl font-semibold mb-2">Eligibility</h2>
@@ -161,29 +159,3 @@
     </article>
   </main>
 </template>
-
-<script>
-  import { RouterLink } from "vue-router";
-  import { computed, reactive } from "vue";
-  import { useHead } from "@unhead/vue";
-
-  export default {
-    setup() {
-      const siteData = reactive({
-        title: `My website`,
-        description: `My beautiful website`,
-      });
-
-      useHead({
-        // Can be static or computed
-        title: computed(() => siteData.title),
-        meta: [
-          {
-            name: `description`,
-            content: computed(() => siteData.description),
-          },
-        ],
-      });
-    },
-  };
-</script>
