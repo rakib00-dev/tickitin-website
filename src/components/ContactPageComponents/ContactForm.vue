@@ -42,7 +42,7 @@
         <input
           id="order_Id"
           type="text"
-          placeholder="Your order_Id"
+          placeholder="Your Order Id"
           required="false"
           class="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-[#59bbd4] bg-gray-200"
         />
