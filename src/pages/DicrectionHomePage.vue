@@ -16,5 +16,12 @@
       >
       to
     </div>
+
+    <div class="cursor-pointer">
+      <RouterLink to="/privacy-policy"
+        >Go To <u>Privacy Policy</u> Page</RouterLink
+      >
+      to
+    </div>
   </div>
 </template>

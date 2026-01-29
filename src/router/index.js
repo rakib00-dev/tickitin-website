@@ -3,6 +3,7 @@ import AboutPage from "../pages/AboutPage.vue";
 import DicrectionHomePage from "../pages/DicrectionHomePage.vue";
 import ContactUsPage from "../pages/ContactUsPage.vue";
 import TermsOfServicePage from "../pages/TermsOfServicePage.vue";
+import PrivacyPolicy from "../pages/PrivacyPolicy.vue";
 
 const routes = [
   {
@@ -40,6 +41,17 @@ const routes = [
       description:
         "Tickitin terms of service explain rules for accounts, tickets, payments, and safety, so you know what to expect. Read now and use Tickitin with ease.",
       keywords: "tickitin, terms, legal, tos",
+    },
+  },
+  {
+    path: "/privacy-policy",
+    component: PrivacyPolicy,
+    name: "Privacy",
+    meta: {
+      title: "Privacy and Policy | Tickitin",
+      description:
+        "Tickitin Privacy and Policy explain rules for accounts, tickets, payments, and safety, so you know what to expect. Read now and use Tickitin with ease.",
+      keywords: "Privacy, Policy, tickitin, terms",
     },
   },
 ];
