@@ -3,7 +3,7 @@
     class="max-w-7xl mx-auto flex justify-center items-center max-md:flex-col gap-4 px-4 pt-6 md:px-8"
   >
     <div
-      class="p-3 border border-gray-200 w-full h-[170px] rounded-xl shadow px-6"
+      class="p-3 border border-gray-200 w-full md:h-[170px] rounded-xl shadow px-6"
     >
       <h3 class="text-xl font-bold flex justify-start items-center gap-2">
         <svg
