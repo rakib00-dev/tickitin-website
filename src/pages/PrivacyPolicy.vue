@@ -16,7 +16,7 @@
         src="/privacy_policy/privacy.jpg"
         alt="this is a privacy policy page of tickitin.com image where people holding tickect"
         loading="lazy"
-        class="h-[80vh] w-full"
+        class="md:h-[80vh] w-full"
       />
 
       <section class="mb-6 mt-2 leading-relaxed">
