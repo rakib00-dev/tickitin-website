@@ -4,6 +4,7 @@ import DicrectionHomePage from "../pages/DicrectionHomePage.vue";
 import ContactUsPage from "../pages/ContactUsPage.vue";
 import TermsOfServicePage from "../pages/TermsOfServicePage.vue";
 import PrivacyPolicy from "../pages/PrivacyPolicy.vue";
+import DeliveryAccessPolicy from "../pages/DeliveryAccessPolicy.vue";
 
 const routes = [
   {
@@ -51,6 +52,17 @@ const routes = [
       title: "Privacy and Policy | Tickitin",
       description:
         "Tickitin Privacy and Policy explain rules for accounts, tickets, payments, and safety, so you know what to expect. Read now and use Tickitin with ease.",
+      keywords: "Privacy, Policy, tickitin, terms",
+    },
+  },
+  {
+    path: "/delivery-access-policy",
+    component: DeliveryAccessPolicy,
+    name: "DeliveryAccess",
+    meta: {
+      title: "Delivery Access Policy | Tickitin",
+      description:
+        "Tickitin Delivery Access Policy explain rules for accounts, tickets, payments, and safety, so you know what to expect. Read now and use Tickitin with ease.",
       keywords: "Privacy, Policy, tickitin, terms",
     },
   },

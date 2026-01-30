@@ -23,5 +23,12 @@
       >
       to
     </div>
+
+    <div class="cursor-pointer">
+      <RouterLink to="/delivery-access-policy"
+        >Go To <u>Delivery Policy</u> Page</RouterLink
+      >
+      to
+    </div>
   </div>
 </template>
