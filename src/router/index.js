@@ -5,6 +5,8 @@ import ContactUsPage from "../pages/ContactUsPage.vue";
 import TermsOfServicePage from "../pages/TermsOfServicePage.vue";
 import PrivacyPolicy from "../pages/PrivacyPolicy.vue";
 import DeliveryAccessPolicy from "../pages/DeliveryAccessPolicy.vue";
+import PaymentSecurityPolicy from "../pages/PaymentSecurityPolicy.vue";
+import RefundCancellationPolicy from "../pages/RefundCancellationPolicy.vue";
 
 const routes = [
   {
@@ -63,6 +65,28 @@ const routes = [
       title: "Delivery Access Policy | Tickitin",
       description:
         "Tickitin Delivery Access Policy explain rules for accounts, tickets, payments, and safety, so you know what to expect. Read now and use Tickitin with ease.",
+      keywords: "Privacy, Policy, tickitin, terms",
+    },
+  },
+  {
+    path: "/payment-security-policy",
+    component: PaymentSecurityPolicy,
+    name: "PaymentSecurity",
+    meta: {
+      title: "Payment Security Policy | Tickitin",
+      description:
+        "Tickitin Payment Security Policy explain rules for accounts, tickets, payments, and safety, so you know what to expect. Read now and use Tickitin with ease.",
+      keywords: "Privacy, Policy, tickitin, terms",
+    },
+  },
+  {
+    path: "/refund-cancellation-policy",
+    component: RefundCancellationPolicy,
+    name: "RefundCancellation",
+    meta: {
+      title: "Refund Cancellation Policy | Tickitin",
+      description:
+        "Tickitin Refund Cancellation Policy explain rules for accounts, tickets, payments, and safety, so you know what to expect. Read now and use Tickitin with ease.",
       keywords: "Privacy, Policy, tickitin, terms",
     },
   },
