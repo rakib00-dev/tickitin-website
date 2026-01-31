@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <main class="max-w-7xl mx-auto min-h-screen bg-gray-50 text-gray-800">
-    <article class="max-w-5xl mx-auto px-4 py-16">
+  <main class="bg-gray-50 text-gray-800">
+    <article class="max-w-7xl mx-auto min-h-screen px-4 py-16">
       <header class="mb-8">
         <h1 class="text-4xl font-bold mb-2">
           Tickitin Payment & Security Policy
@@ -18,7 +18,7 @@
         src="/privacy_policy/privacy.jpg"
         alt="this is a privacy policy page of tickitin.com image where people holding ticket"
         loading="lazy"
-        class="md:h-[80vh] w-full object-cover rounded-xl shadow-sm"
+        class="w-full rounded-2xl"
       />
 
       <section class="mb-6 mt-6 leading-relaxed">
