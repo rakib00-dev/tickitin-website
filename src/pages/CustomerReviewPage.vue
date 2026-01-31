@@ -18,37 +18,9 @@
       </div>
     </header>
 
-    <section class="max-w-7xl mx-auto px-6 py-20 text-center">
-      <h2 class="text-2xl font-bold">What Our Customers are saying</h2>
-      <p class="text-gray-500 mb-8">Lorem ipsum dolor sit amet et</p>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <ReviewsCard
-          v-for="i in 3"
-          :key="i"
-          src="https://i.pravatar.cc/150?u=1"
-          name="Medium length headline"
-          p="Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos."
-          fiveStar
-        />
-      </div>
-    </section>
+    <WhatOurCustomerSay />
 
-    <section class="text-center bg-gray-50">
-      <div class="max-w-7xl mx-auto px-6 py-20">
-        <h2 class="text-2xl font-bold">Our App Reviews</h2>
-        <p class="text-gray-500 mb-8">Lorem ipsum dolor sit amet et</p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <ReviewsCard
-            v-for="i in 3"
-            :key="i"
-            src="https://i.pravatar.cc/150?u=1"
-            name="Medium length headline"
-            p="Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos."
-            fiveStar
-          />
-        </div>
-      </div>
-    </section>
+    <OurAppReviews />
 
     <section class="max-w-7xl mx-auto px-6 py-20 text-center">
       <h2
@@ -127,7 +99,9 @@
 </template>
 
 <script setup>
+  import OurAppReviews from "../components/ReviewsPage/OurAppReviews.vue";
   import ReviewsCard from "../components/ReviewsPage/ReviewsCard.vue";
+  import WhatOurCustomerSay from "../components/ReviewsPage/WhatOurCustomerSay.vue";
 
   const faqs = [
     "Question 1",
