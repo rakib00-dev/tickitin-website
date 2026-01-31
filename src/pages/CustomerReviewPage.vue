@@ -22,23 +22,7 @@
 
     <OurAppReviews />
 
-    <section class="max-w-7xl mx-auto px-6 py-20 text-center">
-      <h2
-        class="text-4xl font-black text-center mb-10 tracking-widest uppercase"
-      >
-        FAQ
-      </h2>
-      <div class="space-y-2">
-        <div
-          v-for="(q, index) in faqs"
-          :key="index"
-          class="border border-black p-4 flex justify-between items-center cursor-pointer hover:bg-gray-50"
-        >
-          <span class="font-medium">{{ q }}</span>
-          <span class="text-xs">▼</span>
-        </div>
-      </div>
-    </section>
+    <ReviewsFAQ />
 
     <section class="max-w-7xl mx-auto px-6 py-10 text-center">
       <div
@@ -100,15 +84,6 @@
 
 <script setup>
   import OurAppReviews from "../components/ReviewsPage/OurAppReviews.vue";
-  import ReviewsCard from "../components/ReviewsPage/ReviewsCard.vue";
+  import ReviewsFAQ from "../components/ReviewsPage/ReviewsFAQ.vue";
   import WhatOurCustomerSay from "../components/ReviewsPage/WhatOurCustomerSay.vue";
-
-  const faqs = [
-    "Question 1",
-    "Question 2",
-    "Question 1",
-    "Question 1",
-    "Question 1",
-    "Question 1",
-  ];
 </script>
