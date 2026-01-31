@@ -20,7 +20,7 @@
 </script>
 
 <template>
-  <section class="max-w-7xl mx-auto px-6 py-20 text-center">
+  <section class="max-w-7xl mx-auto px-6 py-20 text-center bg-gray-50">
     <h2 class="text-2xl font-bold">Our App Reviews</h2>
     <p class="text-gray-500 mb-8">Lorem ipsum dolor sit amet et</p>
 
