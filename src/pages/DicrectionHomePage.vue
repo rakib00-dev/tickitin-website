@@ -37,5 +37,11 @@
         >Go To <u>Delivery Access Policy</u> Page</RouterLink
       >
     </div>
+
+    <div class="cursor-pointer">
+      <RouterLink to="/customer-review"
+        >Go To <u>Tickitin Customer Review</u> Page</RouterLink
+      >
+    </div>
   </div>
 </template>

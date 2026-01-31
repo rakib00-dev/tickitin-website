@@ -7,6 +7,7 @@ import PrivacyPolicy from "../pages/PrivacyPolicy.vue";
 import DeliveryAccessPolicy from "../pages/DeliveryAccessPolicy.vue";
 import PaymentSecurityPolicy from "../pages/PaymentSecurityPolicy.vue";
 import RefundCancellationPolicy from "../pages/RefundCancellationPolicy.vue";
+import CustomerReviewPage from "../pages/CustomerReviewPage.vue";
 
 const routes = [
   {
@@ -88,6 +89,17 @@ const routes = [
       description:
         "Tickitin Refund Cancellation Policy explain rules for accounts, tickets, payments, and safety, so you know what to expect. Read now and use Tickitin with ease.",
       keywords: "Privacy, Policy, tickitin, terms",
+    },
+  },
+  {
+    path: "/customer-review",
+    component: CustomerReviewPage,
+    name: "CustomerReviewPage",
+    meta: {
+      title: "Tickitin Customer Review | Tickitin",
+      description:
+        "Tickitin Tickitin Customer Review explain what our customer talks about it, so you know what to expect. Read now and use Tickitin with ease.",
+      keywords: "Tickitin Customer Review, testimonials, tickitin",
     },
   },
 ];

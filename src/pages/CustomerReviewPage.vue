@@ -1,0 +1,140 @@
+<template>
+  <main class="">
+    <header
+      class="px-4 py-16 md:px-8 overflow-hidden place-items-center grid bg-gray-50 rounded-b-3xl"
+    >
+      <div class="max-w-7xl mx-auto grid place-items-center gap-4 text-center">
+        <h1 class="text-3xl md:text-5xl font-bold text-gray-900">
+          Tickitin Customer Reviews
+        </h1>
+        <p class="md:text-xl md:w-4/5 text-gray-600">
+          See what our community is saying about their experiences.
+        </p>
+        <button
+          class="transition-all !duration-200 rounded-full py-3 px-8 !bg-[#59bbd4] font-semibold text-white hover:!bg-[#4aacc5] shadow-lg"
+        >
+          Leave A Review
+        </button>
+      </div>
+    </header>
+
+    <section class="max-w-7xl mx-auto px-6 py-20 text-center">
+      <h2 class="text-2xl font-bold">What Our Customers are saying</h2>
+      <p class="text-gray-500 mb-8">Lorem ipsum dolor sit amet et</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <ReviewsCard
+          v-for="i in 3"
+          :key="i"
+          src="https://i.pravatar.cc/150?u=1"
+          name="Medium length headline"
+          p="Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos."
+          fiveStar
+        />
+      </div>
+    </section>
+
+    <section class="text-center bg-gray-50">
+      <div class="max-w-7xl mx-auto px-6 py-20">
+        <h2 class="text-2xl font-bold">Our App Reviews</h2>
+        <p class="text-gray-500 mb-8">Lorem ipsum dolor sit amet et</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <ReviewsCard
+            v-for="i in 3"
+            :key="i"
+            src="https://i.pravatar.cc/150?u=1"
+            name="Medium length headline"
+            p="Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos."
+            fiveStar
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-20 text-center">
+      <h2
+        class="text-4xl font-black text-center mb-10 tracking-widest uppercase"
+      >
+        FAQ
+      </h2>
+      <div class="space-y-2">
+        <div
+          v-for="(q, index) in faqs"
+          :key="index"
+          class="border border-black p-4 flex justify-between items-center cursor-pointer hover:bg-gray-50"
+        >
+          <span class="font-medium">{{ q }}</span>
+          <span class="text-xs">▼</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-10 text-center">
+      <div
+        class="flex max-md:flex-col items-center justify-between gap-8 bg-gray-100 rounded-2xl p-6 border-2 border-gray-300"
+      >
+        <div class="space-y-6 md:w-1/2 text-left">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+            Get our Mobile App
+          </h2>
+          <p class="text-gray-500">
+            A one-stop ticketing experience, providing users with various types
+            of tickets, well-known artists in the industry, and so on.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <button
+              class="!bg-[#787575] hover:bg-black text-white px-10 py-3 rounded-full font-bold transition-all flex justify-center items-center gap-2"
+            >
+              <img
+                src="/customer_review/android.png"
+                alt="this is a iphone image"
+                class="w-8 h-8"
+                loading="lazy"
+              />
+              <div>
+                <span class="text-xs">Get It On</span><br />
+                <span>Android</span>
+              </div>
+            </button>
+            <button
+              class="!bg-[#787575] hover:bg-black text-white px-10 py-3 rounded-full font-bold transition-all flex justify-center items-center gap-2"
+            >
+              <img
+                src="/customer_review/iphone.png"
+                alt="this is a iphone image"
+                class="w-8 h-10"
+                loading="lazy"
+              />
+              <div>
+                <span class="text-xs">Download On the</span><br />
+                <span>Iphone</span>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <div class="relative md:w-1/3 flex justify-center">
+          <div class="w-36 shadow-2xl relative rounded-2xl">
+            <img
+              src="https://tickitin.com/img/picture.f6695f45.png"
+              alt=""
+              class="rounded-2xl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</template>
+
+<script setup>
+  import ReviewsCard from "../components/ReviewsPage/ReviewsCard.vue";
+
+  const faqs = [
+    "Question 1",
+    "Question 2",
+    "Question 1",
+    "Question 1",
+    "Question 1",
+    "Question 1",
+  ];
+</script>
