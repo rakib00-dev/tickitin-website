@@ -29,9 +29,10 @@
 
 <template>
   <section class="max-w-7xl mx-auto px-6 py-20">
-    <h2 class="text-4xl font-black text-center mb-10 tracking-widest uppercase">
-      FAQ
-    </h2>
+    <div class="text-center mb-10">
+      <h2 class="text-2xl font-bold">FAQ</h2>
+      <p>Here are some of the Frequently Asked Questions</p>
+    </div>
 
     <div class="space-y-4">
       <details

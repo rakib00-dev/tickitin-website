@@ -1,20 +1,14 @@
 <template>
   <div
-    :class="['grid w-auto bg-gray-50 place-items-center p-4 border', borderCss]"
+    class="flex flex-col justify-center items-center h-full bg-gray-50 p-4 border border-gray-400 rounded shadow"
   >
     <div class="grid place-items-center">
-      <img
-        :src="src"
-        :alt="name"
-        width="60"
-        height="60"
-        class="rounded-full object-cover"
-      />
+      <img :src="src" :alt="name" class="rounded-full size-15 object-cover" />
       <h5 class="font-bold mt-2">{{ name }}</h5>
       <span class="text-sm text-gray-500">{{ title }}</span>
     </div>
 
-    <span class="flex gap-1 justify-start items-center font-medium mt-3">
+    <span class="flex gap-1 justify-start items-center font-medium mt-1">
       <template v-for="i in 5" :key="i">
         <svg class="w-6 h-6 fill-amber-400" viewBox="0 0 24 24">
           <path
@@ -29,7 +23,9 @@
       </svg>
     </span>
 
-    <p class="text-md py-4 text-center text-gray-700">{{ p }}</p>
+    <p class="text-md pt-2 pb-2 text-center font-medium text-gray-800 flex">
+      {{ p }}
+    </p>
   </div>
 </template>
 

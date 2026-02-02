@@ -15,7 +15,7 @@
       </header>
 
       <img
-        src="/privacy_policy/privacy.jpg"
+        src="/images/privacy_policy/privacy.jpg"
         alt="Tickitin Ticket Delivery and Access Policy Image"
         loading="lazy"
         class="w-full rounded-xl"

@@ -41,7 +41,7 @@
               class="!bg-[#787575] hover:bg-black text-white px-10 py-3 rounded-full font-bold transition-all flex justify-center items-center gap-2"
             >
               <img
-                src="/customer_review/android.png"
+                src="/images/customer_review/android.png"
                 alt="this is a iphone image"
                 class="w-8 h-8"
                 loading="lazy"
@@ -55,7 +55,7 @@
               class="!bg-[#787575] hover:bg-black text-white px-10 py-3 rounded-full font-bold transition-all flex justify-center items-center gap-2"
             >
               <img
-                src="/customer_review/iphone.png"
+                src="/images/customer_review/iphone.png"
                 alt="this is a iphone image"
                 class="w-8 h-10"
                 loading="lazy"

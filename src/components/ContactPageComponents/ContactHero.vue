@@ -1,6 +1,6 @@
 <template>
   <main
-    class="px-4 py-10 md:px-8 bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/contact_us/contact_hero.jpg)] bg-no-repeat bg-cover bg-center md:h-[40vh] overflow-hidden place-items-center grid"
+    class="px-4 py-10 md:px-8 bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/images/contact_us/contact_hero.jpg)] bg-no-repeat bg-cover bg-center md:h-[40vh] overflow-hidden place-items-center grid"
   >
     <div
       class="max-w-7xl mx-auto grid place-items-center gap-2 *:text-white relative z-10"

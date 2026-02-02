@@ -6,7 +6,7 @@
       class="p-3 border border-gray-200 w-full h-[170px] rounded-xl shadow px-6"
     >
       <h3 class="text-xl font-bold flex justify-start items-center gap-2">
-        <img src="/contact_us/mail.svg" class="size-5" loading="lazy" />
+        <img src="/images/contact_us/mail.svg" class="size-5" loading="lazy" />
         Support email
       </h3>
       <div class="w-full my-2 h-0.5 bg-gray-300"></div>
@@ -23,8 +23,11 @@
       <h3
         class="text-xl font-bold w-full flex justify-start items-center gap-2"
       >
-        <img src="/contact_us/clock.png" class="size-5" loading="lazy" />Support
-        Hours
+        <img
+          src="/images/contact_us/clock.png"
+          class="size-5"
+          loading="lazy"
+        />Support Hours
       </h3>
       <div class="w-full my-2 h-0.5 bg-gray-300"></div>
       <div class="*:text-sm w-full space-y-3">
@@ -43,8 +46,11 @@
       <h3
         class="text-xl font-bold w-full flex justify-start items-center gap-2"
       >
-        <img src="/contact_us/order.png" class="size-5" loading="lazy" />Order
-        Support
+        <img
+          src="/images/contact_us/order.png"
+          class="size-5"
+          loading="lazy"
+        />Order Support
       </h3>
       <div class="w-full my-2 h-0.5 bg-gray-300"></div>
       <div class="*:text-sm font-medium w-full">

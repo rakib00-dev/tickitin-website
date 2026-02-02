@@ -2,7 +2,7 @@
   <section class="py-2 px-4 bg-blue-50 my-5">
     <div class="max-w-7xl mx-auto grid place-items-center md:grid-cols-2">
       <img
-        src="/contact_us/hero_faq.jpg"
+        src="/images/contact_us/hero_faq.jpg"
         class="w-4/5"
         style="filter: hue-rotate(335deg); mix-blend-mode: multiply"
         alt="On tickitin.com you get 24/7 hour support and or team is here to give you the problem solution what you're facing and this is a contact supoort image"

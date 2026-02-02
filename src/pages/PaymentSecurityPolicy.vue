@@ -15,7 +15,7 @@
       </header>
 
       <img
-        src="/privacy_policy/privacy.jpg"
+        src="/images/privacy_policy/privacy.jpg"
         alt="this is a privacy policy page of tickitin.com image where people holding ticket"
         loading="lazy"
         class="w-full rounded-2xl"
