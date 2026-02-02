@@ -20,49 +20,6 @@
 
   const customerAppReviews = [
     {
-      user: `Rightrrrraheb`,
-      rating: `5/5 Stars`,
-      title: `Easy and seamless with great features!`,
-      review: `Been using Tickitin for a while works great and easy to use highly recommend!`,
-      profileImage: `/images/customer_review/app_users/app_review_male1.jpeg`,
-    },
-    {
-      user: `KennyC#123`,
-      rating: `5/5 Stars`,
-      title: `super app`,
-      review: `tickitin is the one stop shop for all eve nets in america. it's literally the first super app. No need for me to go anywhere else!!!`,
-      profileImage: `/images/customer_review/app_users/app_review_male2.jpeg`,
-    },
-    {
-      user: `Peterclios`,
-      rating: `5/5 Stars`,
-      title: `Greatest app for event goers`,
-      review: `Literally is like the Tesla for events and experiences.`,
-      profileImage: `/images/customer_review/app_users/app_review_female1.jpeg`,
-    },
-    {
-      user: `Caprilesr`,
-      rating: `5/5 Stars`,
-      title: `the best app`,
-      review: `the best app to save money`,
-      profileImage: `/images/customer_review/app_users/app_review_male3.jpeg`,
-    },
-    {
-      user: `yoyo45667`,
-      rating: `5/5 stars`,
-      title: `My go to for ticket purchases`,
-      review: `I've been using Tickitin for purchasing tickets, and it's been a great experience! One of the best features is the price transparency-what you see is exactly what you pay, with no hidden fees or surprises.`,
-      profileImage: `/images/customer_review/app_users/app_review_female2.jpeg`,
-    },
-    {
-      user: `$$moneycash`,
-      rating: `5/5 stars`,
-      title: `The greatest ticket platform`,
-      review: `10 out of 10. Every detail is thought out. Extremely unique.`,
-      profileImage: `/images/customer_review/app_users/app_review_male4.jpeg`,
-    },
-
-    {
       user: `Marcus Thorne`,
       rating: `5/5`,
       title: `Better than Venmo`,
@@ -124,7 +81,7 @@
 <template>
   <section class="max-w-7xl mx-auto px-6 py-20 text-center">
     <h2 class="text-2xl font-bold">What Our Customers are saying</h2>
-    <p class="text-gray-500 mb-8">Lorem ipsum dolor sit amet et</p>
+    <p class="text-gray-500 mb-8">see our website reviews</p>
 
     <Carousel v-bind="carouselConfig">
       <Slide v-for="appReview in customerAppReviews" :key="i">
