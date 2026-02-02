@@ -25,8 +25,7 @@
       title: "Easy and seamless with great features!",
       review:
         "Been using Tickitin for a while works great and easy to use highly recommend!",
-      profileImage:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80",
+      profileImage: "/images/customer_review/app_users/app_review_male1.jpeg",
     },
     {
       user: "KennyC#123",
@@ -34,24 +33,21 @@
       title: "super app",
       review:
         "tickitin is the one stop shop for all eve nets in america. it's literally the first super app. No need for me to go anywhere else!!!",
-      profileImage:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      profileImage: "/images/customer_review/app_users/app_review_male2.jpeg",
     },
     {
       user: "Peterclios",
       rating: "5/5 Stars",
       title: "Greatest app for event goers",
       review: "Literally is like the Tesla for events and experiences.",
-      profileImage:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80",
+      profileImage: "/images/customer_review/app_users/app_review_female1.jpeg",
     },
     {
       user: "Caprilesr",
       rating: "5/5 Stars",
       title: "the best app",
       review: "the best app to save money",
-      profileImage:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80",
+      profileImage: "/images/customer_review/app_users/app_review_male3.jpeg",
     },
     {
       user: "yoyo45667",
@@ -59,16 +55,14 @@
       title: "My go to for ticket purchases",
       review:
         "I've been using Tickitin for purchasing tickets, and it's been a great experience! One of the best features is the price transparency-what you see is exactly what you pay, with no hidden fees or surprises.",
-      profileImage:
-        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80",
+      profileImage: "/images/customer_review/app_users/app_review_female2.jpeg",
     },
     {
       user: "$$moneycash",
       rating: "5/5 stars",
       title: "The greatest ticket platform",
       review: "10 out of 10. Every detail is thought out. Extremely unique.",
-      profileImage:
-        "https://images.unsplash.com/photo-1552058544-1271d757419b?auto=format&fit=crop&w=150&q=80",
+      profileImage: "/images/customer_review/app_users/app_review_male4.jpeg",
     },
     {
       user: "Rightrrrraheb",
@@ -76,8 +70,7 @@
       title: "Easy and seamless with great features!",
       review:
         "Been using Tickitin for a while works great and easy to use highly recommend!",
-      profileImage:
-        "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=150&q=80",
+      profileImage: "/images/customer_review/app_users/app_review_male5.jpeg",
     },
   ];
 </script>
