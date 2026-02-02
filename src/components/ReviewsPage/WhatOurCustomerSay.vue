@@ -17,6 +17,108 @@
       },
     },
   };
+
+  const customerAppReviews = [
+    {
+      user: `Rightrrrraheb`,
+      rating: `5/5 Stars`,
+      title: `Easy and seamless with great features!`,
+      review: `Been using Tickitin for a while works great and easy to use highly recommend!`,
+      profileImage: `/images/customer_review/app_users/app_review_male1.jpeg`,
+    },
+    {
+      user: `KennyC#123`,
+      rating: `5/5 Stars`,
+      title: `super app`,
+      review: `tickitin is the one stop shop for all eve nets in america. it's literally the first super app. No need for me to go anywhere else!!!`,
+      profileImage: `/images/customer_review/app_users/app_review_male2.jpeg`,
+    },
+    {
+      user: `Peterclios`,
+      rating: `5/5 Stars`,
+      title: `Greatest app for event goers`,
+      review: `Literally is like the Tesla for events and experiences.`,
+      profileImage: `/images/customer_review/app_users/app_review_female1.jpeg`,
+    },
+    {
+      user: `Caprilesr`,
+      rating: `5/5 Stars`,
+      title: `the best app`,
+      review: `the best app to save money`,
+      profileImage: `/images/customer_review/app_users/app_review_male3.jpeg`,
+    },
+    {
+      user: `yoyo45667`,
+      rating: `5/5 stars`,
+      title: `My go to for ticket purchases`,
+      review: `I've been using Tickitin for purchasing tickets, and it's been a great experience! One of the best features is the price transparency-what you see is exactly what you pay, with no hidden fees or surprises.`,
+      profileImage: `/images/customer_review/app_users/app_review_female2.jpeg`,
+    },
+    {
+      user: `$$moneycash`,
+      rating: `5/5 stars`,
+      title: `The greatest ticket platform`,
+      review: `10 out of 10. Every detail is thought out. Extremely unique.`,
+      profileImage: `/images/customer_review/app_users/app_review_male4.jpeg`,
+    },
+
+    {
+      user: `Marcus Thorne`,
+      rating: `5/5`,
+      title: `Better than Venmo`,
+      review: `I got tickets for my friends and I in under 2 minutes and split the payment instantly. It honestly felt easier than Venmo’ing everyone after.`,
+      profileImage: `https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=256&q=80`,
+    },
+    {
+      user: `Elena Rodriguez`,
+      rating: `5/5`,
+      title: `Social Experience`,
+      review: `Tickitin is the first ticket app that doesn’t feel transactional. I found an event, brought my friends into the plan, and everything stayed organized in one place.`,
+      profileImage: `https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=256&q=80`,
+    },
+    {
+      user: `David Chen`,
+      rating: `5/5`,
+      title: `Seamless Date Night`,
+      review: `We used Tickitin for a date night and it was way smoother than bouncing between apps. Tickets, planning, and sharing details felt effortless.`,
+      profileImage: `https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=256&q=80`,
+    },
+    {
+      user: `Sophie Miller`,
+      rating: `5/5`,
+      title: `No More Chaos`,
+      review: `Planning events with a group usually turns into chaos. With Tickitin, it felt like the plan just came together without chasing people down.`,
+      profileImage: `https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&q=80`,
+    },
+    {
+      user: `Julian Banks`,
+      rating: `5/5`,
+      title: `Fast Coordination`,
+      review: `I don’t have time to coordinate details across group chats. Tickitin helped us lock in tickets fast, and everyone stayed on the same page.`,
+      profileImage: `https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=256&q=80`,
+    },
+    {
+      user: `Amara Okoro`,
+      rating: `5/5`,
+      title: `The Organizer's Dream`,
+      review: `I’m usually the one who ends up organizing everything. Tickitin made it simple to plan something fun without all the back-and-forth.`,
+      profileImage: `https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=256&q=80`,
+    },
+    {
+      user: `Linda Thompson`,
+      rating: `5/5`,
+      title: `Super Easy Tech`,
+      review: `I’m not the most tech-savvy, but Tickitin was super easy. I bought tickets, shared them, and didn’t have to stress about anything.`,
+      profileImage: `https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=256&q=80`,
+    },
+    {
+      user: `Kevin Vanhook`,
+      rating: `5/5`,
+      title: `Modern & Smooth`,
+      review: `Tickitin feels like the social version of ticketing. We planned a full night out and everyone was in instantly.`,
+      profileImage: `https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=256&q=80`,
+    },
+  ];
 </script>
 
 <template>
@@ -25,12 +127,13 @@
     <p class="text-gray-500 mb-8">Lorem ipsum dolor sit amet et</p>
 
     <Carousel v-bind="carouselConfig">
-      <Slide v-for="i in 6" :key="i">
+      <Slide v-for="appReview in customerAppReviews" :key="i">
         <div class="p-4 w-full h-full">
           <ReviewsCard
-            src="https://i.pravatar.cc/150?u=1"
-            name="Medium length headline"
-            p="Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos."
+            :src="appReview.profileImage"
+            :name="appReview.user"
+            :p="appReview.review"
+            :title="appReview.title"
             fiveStar
           />
         </div>
