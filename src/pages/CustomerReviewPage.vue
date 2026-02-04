@@ -1,5 +1,5 @@
 <template>
-  <main class="">
+  <main >
     <header
       class="px-4 py-16 md:px-8 overflow-hidden place-items-center grid bg-gray-50 rounded-b-3xl"
     >
