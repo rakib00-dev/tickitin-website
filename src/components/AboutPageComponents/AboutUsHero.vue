@@ -10,10 +10,10 @@
       class="max-w-7xl mx-auto grid place-items-center gap-2 *:text-white relative z-10"
     >
       <h1 class="text-2xl md:text-4xl font-bold">Tickitin - About Us</h1>
-      <h1 class="text-lg md:text-xl font-bold">
+      <h1 class="text-lg text-center md:text-xl font-bold">
         We{{ `’` }}re Building the Infrastructure for Better Nights
       </h1>
-      <p class="md:text-xl md:w-4/5 text-center">
+      <p class="text-sm md:text-lg md:w-4/5 text-center">
         Tickitin didn&apos;t start as a “ticket company.” It started as a
         frustration. Too many good nights dying in group chats. Too many hidden
         fees. Too many hoops just to be in the same room as people you care
