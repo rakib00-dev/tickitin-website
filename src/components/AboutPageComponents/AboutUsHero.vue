@@ -3,17 +3,23 @@
 </script>
 
 <template>
-  <main
-    class="px-4 py-10 md:px-8 bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/images/about_us/about_us_hero.png)] bg-no-repeat bg-cover bg-center md:h-[40vh] overflow-hidden place-items-center grid"
-  >
-    <div
-      class="max-w-7xl mx-auto grid place-items-center gap-2 *:text-white relative z-10"
+  <main>
+    <section
+      class="px-4 py-10 md:px-8 bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/images/about_us/about_us_hero.png)] bg-no-repeat bg-cover bg-center md:h-[40vh] overflow-hidden place-items-center grid"
     >
-      <h1 class="text-2xl md:text-4xl font-bold">Tickitin - About Us</h1>
-      <h1 class="text-lg text-center md:text-xl font-bold">
-        We{{ `’` }}re Building the Infrastructure for Better Nights
-      </h1>
-      <p class="text-sm md:text-lg md:w-4/5 text-center">
+      <div
+        class="max-w-7xl mx-auto grid place-items-center gap-2 *:text-white relative z-10"
+      >
+        <h1 class="text-2xl md:text-4xl font-bold">Tickitin - About Us</h1>
+        <h1 class="text-lg text-center md:text-xl">
+          We{{ `’` }}re Building the Infrastructure for Better Nights
+        </h1>
+      </div>
+    </section>
+    <section
+      class="max-w-7xl pb-10 pt-3 max-md:pt-6 max-md:pb-5 mx-auto gap-2 *:text-black relative z-10"
+    >
+      <p class="text-sm md:text-lg px-6 max-md:px-4 text-center">
         Tickitin didn&apos;t start as a “ticket company.” It started as a
         frustration. Too many good nights dying in group chats. Too many hidden
         fees. Too many hoops just to be in the same room as people you care
@@ -22,7 +28,7 @@
         So we rebuilt it from first principles. If events are about people… Then
         the platform should be built around people. Not transactions.
       </p>
-    </div>
+    </section>
   </main>
 
   <!-- <section
