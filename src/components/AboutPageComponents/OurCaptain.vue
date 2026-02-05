@@ -2,7 +2,7 @@
   <section class="max-w-7xl mx-auto px-8 py-24 text-center">
     <h2 class="text-3xl font-bold mb-8">Our Captain</h2>
     <div
-      class="grid grid-cols-2 gap-4 p-3 border-2 rounded-2xl border-gray-100 shadow-xl place-items-center"
+      class="grid md:grid-cols-2 gap-4 p-3 border-2 rounded-2xl border-gray-100 shadow-xl place-items-center"
     >
       <div>
         <img
@@ -17,7 +17,7 @@
           <h5 class="text-3xl md:text-4xl font-bold">Eli Cohen</h5>
           <span class="text-xl text-gray-600 font-medium">CEO, Tickitin</span>
         </div>
-        <p class="text-lg text-slate-500 leading-relaxed italic">
+        <p class="text-sm md:text-lg text-slate-500 leading-relaxed italic">
           “Eli Cohen, our CEO at Tickitin, is a visionary leader with a strong
           passion for innovation and customer experience. Under his guidance,
           Tickitin has grown into a reliable and user-friendly ticket-selling
