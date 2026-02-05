@@ -1,18 +1,26 @@
 <template>
-  <section class="max-w-7xl mx-auto bg-slate-50 py-24">
-    <div class="px-8 text-center">
-      <div>
-        <h2 class="text-3xl font-black mb-8">Who we are</h2>
+  <section class="bg-slate-50 py-12 md:py-24">
+    <div
+      class="max-w-7xl mx-auto px-8 text-center grid md:grid-cols-2 place-items-center max-md:gap-4"
+    >
+      <img
+        src="/images/about_us/who_we_are.jpg"
+        alt=""
+        loading="lazy"
+        class="object-cover rounded-2xl aspect-video"
+      />
+      <div class="flex justify-center items-center flex-col md:gap-4">
+        <h2 class="text-xl md:text-3xl font-bold">Who We Are</h2>
         <p
-          class="text-xl md:text-2xl font-medium text-slate-600 leading-relaxed italic"
+          class="text-sm md:text-lg font-medium text-gray-700 text-left md:px-4"
         >
-          “Lorem ipsum dolor sit amet et delectus accommodare his consul
-          copiosae legendos at vix ad putent delectus delicata usu. Vidit
-          dissentiet eos cu eum an brute copiosae hendrerit. Erant dolorum an.
-          Per facer affert ut. Mei iisque mentitum moderatius cu.”
+          We believe: Technology should serve and step aside Transparency builds
+          trust Fees shouldn&apos;t punish fans Planning should be easy Events
+          should be inclusive Moments matter more than margins And accessibility
+          isn&apos;t optional — it&apos;s foundational. If the system
+          doesn&apos;t work for everyone, it&apos;s broken.
         </p>
       </div>
-      <img src="/images/about_us/who_we_are.jpg" alt="" loading="lazy" />
     </div>
   </section>
 </template>

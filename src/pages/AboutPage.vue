@@ -2,6 +2,7 @@
   import Hero from "../components/AboutPageComponents/Hero.vue";
   import OurMisson from "../components/AboutPageComponents/OurMisson.vue";
   import TheProblemWeSolve from "../components/AboutPageComponents/TheProblemWeSolve.vue";
+  import WhatWeBelieve from "../components/AboutPageComponents/WhatWeBelieve.vue";
   import WhatWeDo from "../components/AboutPageComponents/WhatWeDo.vue";
   import WhoWeAre from "../components/AboutPageComponents/WhoWeAre.vue";
   import WhyChooseUs from "../components/AboutPageComponents/WhyChooseUs.vue";
@@ -10,6 +11,7 @@
 <template>
   <Hero />
   <WhatWeDo />
+  <WhatWeBelieve />
   <WhoWeAre />
   <OurMisson />
   <TheProblemWeSolve />
