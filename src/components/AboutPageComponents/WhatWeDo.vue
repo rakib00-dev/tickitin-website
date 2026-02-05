@@ -1,7 +1,7 @@
 <template>
-  <section class="max-w-7xl mx-auto bg-slate-50 py-12 md:py-24">
+  <section class="bg-slate-50 py-12 md:py-24">
     <div
-      class="px-8 text-center grid md:grid-cols-2 place-items-center max-md:gap-4"
+      class="max-w-7xl mx-auto px-8 text-center grid md:grid-cols-2 place-items-center max-md:gap-4"
     >
       <img
         src="/images/about_us/what_we_do.jpg"
