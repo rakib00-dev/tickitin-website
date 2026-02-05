@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import Hero from "../components/AboutPageComponents/Hero.vue";
+  import AboutUsHero from "../components/AboutPageComponents/AboutUsHero.vue";
   import OurCaptain from "../components/AboutPageComponents/OurCaptain.vue";
   import OurGoals from "../components/AboutPageComponents/OurGoals.vue";
   import WhatWeBelieve from "../components/AboutPageComponents/WhatWeBelieve.vue";
@@ -8,7 +8,7 @@
 </script>
 
 <template>
-  <Hero />
+  <AboutUsHero />
   <WhatWeDo />
   <WhatWeBelieve />
   <WhoWeAre />
