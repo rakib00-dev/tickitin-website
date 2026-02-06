@@ -17,7 +17,7 @@
           We believe: Technology should serve and step aside Transparency builds
           trust Fees shouldn&apos;t punish fans Planning should be easy Events
           should be inclusive Moments matter more than margins And accessibility
-          isn&apos;t optional — it&apos;s foundational. If the system
+          isn&apos;t optional - it&apos;s foundational. If the system
           doesn&apos;t work for everyone, it&apos;s broken.
         </p>
       </div>
