@@ -17,7 +17,7 @@
       </div>
     </section>
     <section
-      class="max-w-7xl pb-10 pt-3 max-md:pt-6 max-md:pb-5 mx-auto gap-2 *:text-black relative z-10"
+      class="max-w-7xl pb-10 pt-3 max-md:pb-5 mx-auto gap-2 *:text-black relative z-10"
     >
       <p class="text-sm md:text-lg px-6 max-md:px-4 text-center">
         Tickitin didn&apos;t start as a “ticket company.” It started as a
