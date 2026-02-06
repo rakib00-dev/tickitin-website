@@ -16,7 +16,7 @@
         >
           Tickitin is a social-first, no-fee ticket marketplace. We combine:
           event discovery, group planning, split payments, AI assistance,
-          verified ticket inventory …into one simple experience. So instead of
+          verified ticket inventory, into one simple experience. So instead of
           juggling five apps, you open one. Find something fun. Invite friends.
           Pay instantly. Show up. That&apos;s it
         </p>
