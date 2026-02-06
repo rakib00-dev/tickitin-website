@@ -1,5 +1,5 @@
 <template>
-  <section class="max-w-7xl mx-auto px-4 md:px-8 py-24 text-center">
+  <section class="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-24 text-center">
     <h2 class="text-3xl font-bold mb-8">Our Captain</h2>
     <div
       class="grid md:grid-cols-2 gap-4 p-3 border-2 rounded-2xl border-gray-100 shadow-xl place-items-center"
