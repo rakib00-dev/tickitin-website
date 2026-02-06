@@ -3,7 +3,7 @@
     <h2 class="text-3xl font-bold mb-8">Our Goals</h2>
     <div class="grid gap-4 p-3 text-left">
       <h3
-        class="text-lg md:text-2xl p-2 border-2 justify-start items-center flex gap-2 rounded-2xl border-gray-200 shadow-xl"
+        class="text-md md:text-2xl p-2 border-2 justify-start items-center flex gap-2 rounded-2xl border-gray-200 shadow-xl"
       >
         <span
           class="rounded-full border-2 bg-[#59bbd4] text-white py-2.5 px-4 text-sm font-bold"
@@ -12,7 +12,7 @@
         <span class="w-fit">We&apos;re not trying to sell more tickets.</span>
       </h3>
       <h3
-        class="text-lg md:text-2xl p-2 border-2 justify-start items-center flex gap-2 rounded-2xl border-gray-200 shadow-xl"
+        class="text-md md:text-2xl p-2 border-2 justify-start items-center flex gap-2 rounded-2xl border-gray-200 shadow-xl"
       >
         <span
           class="rounded-full border-2 bg-[#59bbd4] text-white py-2.5 px-4 text-sm font-bold"
@@ -23,7 +23,7 @@
         >
       </h3>
       <h3
-        class="text-lg md:text-2xl p-2 border-2 justify-start items-center flex gap-2 rounded-2xl border-gray-200 shadow-xl"
+        class="text-md md:text-2xl p-2 border-2 justify-start items-center flex gap-2 rounded-2xl border-gray-200 shadow-xl"
       >
         <span
           class="rounded-full border-2 bg-[#59bbd4] text-white py-2.5 px-4 text-sm font-bold"
@@ -34,7 +34,7 @@
         >
       </h3>
       <h3
-        class="text-lg md:text-2xl p-2 border-2 justify-start items-center flex gap-2 rounded-2xl border-gray-200 shadow-xl"
+        class="text-md md:text-2xl p-2 border-2 justify-start items-center flex gap-2 rounded-2xl border-gray-200 shadow-xl"
       >
         <span
           class="rounded-full border-2 bg-[#59bbd4] text-white py-2.5 px-4 text-sm font-bold"
@@ -46,7 +46,7 @@
         >
       </h3>
       <h3
-        class="text-lg md:text-2xl p-2 border-2 justify-start items-center flex gap-2 rounded-2xl border-gray-200 shadow-xl"
+        class="text-md md:text-2xl p-2 border-2 justify-start items-center flex gap-2 rounded-2xl border-gray-200 shadow-xl"
       >
         <span
           class="rounded-full border-2 bg-[#59bbd4] text-white py-2.5 px-4 text-sm font-bold"
