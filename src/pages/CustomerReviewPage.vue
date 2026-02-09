@@ -1,5 +1,5 @@
 <template>
-  <main >
+  <main>
     <header
       class="px-4 py-16 md:px-8 overflow-hidden place-items-center grid bg-gray-50 rounded-b-3xl"
     >
@@ -40,6 +40,8 @@
     <WhatOurCustomerSay />
 
     <OurAppReviews />
+
+    <ReviewPress />
 
     <ReviewsFAQ />
 
@@ -103,6 +105,7 @@
 
 <script setup>
   import OurAppReviews from "../components/ReviewsPage/OurAppReviews.vue";
+  import ReviewPress from "../components/ReviewsPage/ReviewPress.vue";
   import ReviewsFAQ from "../components/ReviewsPage/ReviewsFAQ.vue";
   import WhatOurCustomerSay from "../components/ReviewsPage/WhatOurCustomerSay.vue";
 </script>

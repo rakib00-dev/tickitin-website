@@ -28,35 +28,37 @@
 </script>
 
 <template>
-  <section class="max-w-7xl mx-auto px-6 py-20">
-    <div class="text-center mb-10">
-      <h2 class="text-2xl font-bold">FAQ</h2>
-      <p>Here are some of the Frequently Asked Questions</p>
-    </div>
+  <section class="bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6 py-20">
+      <div class="text-center mb-10">
+        <h2 class="text-2xl font-bold">FAQ</h2>
+        <p>Here are some of the Frequently Asked Questions</p>
+      </div>
 
-    <div class="space-y-4">
-      <details
-        v-for="(item, index) in faqs"
-        :key="index"
-        class="group border border-gray-300 rounded-2xl transition-all duration-300"
-      >
-        <summary
-          class="list-none p-4 flex justify-between items-center rounded-2xl cursor-pointer hover:bg-gray-50 font-bold"
+      <div class="space-y-4">
+        <details
+          v-for="(item, index) in faqs"
+          :key="index"
+          class="group border border-gray-300 rounded-2xl transition-all duration-300"
         >
-          <span>{{ item.q }}</span>
-          <span
-            class="text-xs transition-transform duration-300 group-open:rotate-180"
+          <summary
+            class="list-none p-4 flex justify-between items-center rounded-2xl cursor-pointer hover:bg-gray-50 font-bold"
           >
-            ▼
-          </span>
-        </summary>
+            <span>{{ item.q }}</span>
+            <span
+              class="text-xs transition-transform duration-300 group-open:rotate-180"
+            >
+              ▼
+            </span>
+          </summary>
 
-        <div
-          class="px-4 pb-4 text-gray-700 text-left border-t border-gray-400 pt-4"
-        >
-          {{ item.a }}
-        </div>
-      </details>
+          <div
+            class="px-4 pb-4 text-gray-700 text-left border-t border-gray-400 pt-4"
+          >
+            {{ item.a }}
+          </div>
+        </details>
+      </div>
     </div>
   </section>
 </template>
