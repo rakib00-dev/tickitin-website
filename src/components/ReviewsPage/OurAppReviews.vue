@@ -20,6 +20,15 @@
 
   const customerAppReviews = [
     {
+      user: "Sharlize True",
+      rating: "5/5 Stars",
+      title: "Great features!",
+      review:
+        "The hockey game was an absolute hit! We loved it and can't wait for the next event. Let us know if you have any tickets for upcoming rams games or lakers when they start.",
+      profileImage:
+        "/images/customer_review/app_users/app_review_sharlize.jpeg",
+    },
+    {
       user: "Rightrrrraheb",
       rating: "5/5 Stars",
       title: "Easy and seamless with great features!",
