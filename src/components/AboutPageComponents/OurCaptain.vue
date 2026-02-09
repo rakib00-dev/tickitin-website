@@ -9,7 +9,7 @@
           src="/images/about_us/our_captain.jpg"
           alt=""
           loading="lazy"
-          class="rounded-2xl"
+          class="rounded-2xl md:w-[400px]"
         />
       </div>
       <div class="text-left">
