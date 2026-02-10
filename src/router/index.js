@@ -8,6 +8,7 @@ import DeliveryAccessPolicy from "../pages/DeliveryAccessPolicy.vue";
 import PaymentSecurityPolicy from "../pages/PaymentSecurityPolicy.vue";
 import RefundCancellationPolicy from "../pages/RefundCancellationPolicy.vue";
 import CustomerReviewPage from "../pages/CustomerReviewPage.vue";
+import SportsCategoryPage from "../pages/SportsCategoryPage.vue";
 
 const routes = [
   {
@@ -98,8 +99,19 @@ const routes = [
     meta: {
       title: "Tickitin Customer Review | Tickitin",
       description:
-        "Tickitin Tickitin Customer Review explain what our customer talks about it, so you know what to expect. Read now and use Tickitin with ease.",
+        "Tickitin Customer Review explain what our customer talks about it, so you know what to expect. Read now and use Tickitin with ease.",
       keywords: "Tickitin Customer Review, testimonials, tickitin",
+    },
+  },
+  {
+    path: "/sports-category",
+    component: SportsCategoryPage,
+    name: "SportsCategoryPage",
+    meta: {
+      title: "Tickitin Sports Categories | Tickitin",
+      description:
+        "Tickitin Sports Categories Review explain what we offer about sports, so you know what to expect. Read now and use Tickitin with ease.",
+      keywords: "Tickitin sports, football, tickitin",
     },
   },
 ];

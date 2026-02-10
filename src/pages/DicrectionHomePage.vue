@@ -1,7 +1,7 @@
 <template>
   <div class="grid place-items-center">
     <div class="cursor-pointer">
-      <RouterLink to="/about">Go To <u>About</u> Page</RouterLink>
+      <RouterLink to="/about">Go To <u>About Us</u> Page</RouterLink>
     </div>
 
     <div class="cursor-pointer">
@@ -42,6 +42,10 @@
       <RouterLink to="/customer-review"
         >Go To <u>Tickitin Customer Review</u> Page</RouterLink
       >
+    </div>
+
+    <div class="cursor-pointer">
+      <RouterLink to="/sports-category">Go To <u>Sports </u> Page</RouterLink>
     </div>
   </div>
 </template>
