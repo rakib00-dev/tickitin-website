@@ -1,7 +1,7 @@
 <script setup>
   import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
   import "vue3-carousel/dist/carousel.css";
-  import SportsCard from "./SportsCard.vue";
+  import FourSportsCard from "./FourSportsCard.vue";
 
   const carouselConfig = {
     itemsToShow: 1,
@@ -54,25 +54,38 @@
       title: "Minnesota Twins vs Atlanta Braves",
       name: "Boxing",
     },
-  ];
+  ].reverse();
 </script>
 
 <template>
-  <section
-    class="bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/images/sports_page/sports_hero.png)] bg-no-repeat bg-cover bg-center"
-  >
+  <!-- Baseball -->
+  <section class="">
     <div class="max-w-7xl mx-auto px-6 py-20 text-center">
-      <h2 class="text-2xl md:text-4xl font-bold text-white">
-        Tickitin - Sports Tickets
-      </h2>
-      <p class="text-gray-300 mb-8">
-        Discover the best tickets to Sports events.
-      </p>
+      <div
+        class="px-4 text-left flex justify-between md:items-center max-md:flex-col"
+      >
+        <div class="">
+          <h2 class="text-2xl md:text-4xl font-bold">Baseball</h2>
+          <p class="text-gray-500 mb-8">
+            Discover the best tickets to Sports events.
+          </p>
+        </div>
+        <div class="">
+          <a
+            href="https://tickitin.com/#/search?type_id=63"
+            class="px-3 py-1 border border-gray-200 rounded-full text-md"
+            >View all</a
+          >
+        </div>
+      </div>
 
       <Carousel v-bind="carouselConfig">
-        <Slide v-for="sports in sportsCards" :key="`${sports.name}sportsHero`">
+        <Slide
+          v-for="sports in sportsCards"
+          :key="`${sports.name}firstcardfromfour`"
+        >
           <div class="p-4 w-full h-full">
-            <SportsCard
+            <FourSportsCard
               :src="sports.src"
               :name="sports.name"
               :title="sports.title"
