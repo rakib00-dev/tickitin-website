@@ -42,7 +42,7 @@
   <section class="">
     <div class="max-w-7xl mx-auto px-6 py-20 text-center">
       <div class="px-4flex justify-between items-center max-md:flex-col">
-        <h2 class="text-2xl md:text-4xl font-bold">Football</h2>
+        <h2 class="text-2xl md:text-4xl font-bold">Other Sports Categories</h2>
         <p class="text-gray-500 mb-8">
           Discover the best tickets to Sports events.
         </p>
