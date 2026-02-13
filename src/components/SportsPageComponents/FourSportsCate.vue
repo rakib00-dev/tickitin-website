@@ -60,12 +60,141 @@
 <template>
   <!-- Baseball -->
   <section class="">
-    <div class="max-w-7xl mx-auto px-6 py-20 text-center">
+    <div class="max-w-7xl mx-auto px-6 py-8 md:py-14 text-center">
       <div
         class="px-4 text-left flex justify-between md:items-center max-md:flex-col"
       >
         <div class="">
           <h2 class="text-2xl md:text-4xl font-bold">Baseball</h2>
+          <p class="text-gray-500 mb-8">
+            Discover the best tickets to Sports events.
+          </p>
+        </div>
+        <div class="">
+          <a
+            href="https://tickitin.com/#/search?type_id=63"
+            class="px-3 py-1 border border-gray-200 rounded-full text-md"
+            >View all</a
+          >
+        </div>
+      </div>
+
+      <Carousel v-bind="carouselConfig">
+        <Slide
+          v-for="sports in sportsCards"
+          :key="`${sports.name}firstcardfromfour`"
+        >
+          <div class="p-4 w-full h-full">
+            <FourSportsCard
+              :src="sports.src"
+              :name="sports.name"
+              :title="sports.title"
+            />
+          </div>
+        </Slide>
+
+        <template #addons>
+          <Navigation />
+          <Pagination />
+        </template>
+      </Carousel>
+    </div>
+  </section>
+
+  <!-- Basketball -->
+  <section class="">
+    <div class="max-w-7xl mx-auto px-6 py-8 md:py-14 text-center">
+      <div
+        class="px-4 text-left flex justify-between md:items-center max-md:flex-col"
+      >
+        <div class="">
+          <h2 class="text-2xl md:text-4xl font-bold">Basketball</h2>
+          <p class="text-gray-500 mb-8">
+            Discover the best tickets to Sports events.
+          </p>
+        </div>
+        <div class="">
+          <a
+            href="https://tickitin.com/#/search?type_id=63"
+            class="px-3 py-1 border border-gray-200 rounded-full text-md"
+            >View all</a
+          >
+        </div>
+      </div>
+
+      <Carousel v-bind="carouselConfig">
+        <Slide
+          v-for="sports in sportsCards"
+          :key="`${sports.name}firstcardfromfour`"
+        >
+          <div class="p-4 w-full h-full">
+            <FourSportsCard
+              :src="sports.src"
+              :name="sports.name"
+              :title="sports.title"
+            />
+          </div>
+        </Slide>
+
+        <template #addons>
+          <Navigation />
+          <Pagination />
+        </template>
+      </Carousel>
+    </div>
+  </section>
+
+  <!-- boxing -->
+  <section class="">
+    <div class="max-w-7xl mx-auto px-6 py-8 md:py-14 text-center">
+      <div
+        class="px-4 text-left flex justify-between md:items-center max-md:flex-col"
+      >
+        <div class="">
+          <h2 class="text-2xl md:text-4xl font-bold">Boxing</h2>
+          <p class="text-gray-500 mb-8">
+            Discover the best tickets to Sports events.
+          </p>
+        </div>
+        <div class="">
+          <a
+            href="https://tickitin.com/#/search?type_id=63"
+            class="px-3 py-1 border border-gray-200 rounded-full text-md"
+            >View all</a
+          >
+        </div>
+      </div>
+
+      <Carousel v-bind="carouselConfig">
+        <Slide
+          v-for="sports in sportsCards"
+          :key="`${sports.name}firstcardfromfour`"
+        >
+          <div class="p-4 w-full h-full">
+            <FourSportsCard
+              :src="sports.src"
+              :name="sports.name"
+              :title="sports.title"
+            />
+          </div>
+        </Slide>
+
+        <template #addons>
+          <Navigation />
+          <Pagination />
+        </template>
+      </Carousel>
+    </div>
+  </section>
+
+  <!-- football -->
+  <section class="">
+    <div class="max-w-7xl mx-auto px-6 py-8 md:py-14 text-center">
+      <div
+        class="px-4 text-left flex justify-between md:items-center max-md:flex-col"
+      >
+        <div class="">
+          <h2 class="text-2xl md:text-4xl font-bold">Football</h2>
           <p class="text-gray-500 mb-8">
             Discover the best tickets to Sports events.
           </p>
