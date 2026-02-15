@@ -1,4 +1,22 @@
-<script>
+<script setup>
+  import { Carousel, Navigation, Pagination, Slide } from "vue3-carousel";
+  import OtherSportsCard from "./OtherSportsCard.vue";
+
+  const carouselConfig = {
+    itemsToShow: 1,
+    snapAlign: "center",
+    wrapAround: true,
+    gap: 10,
+    breakpoints: {
+      768: {
+        itemsToShow: 2,
+      },
+      1024: {
+        itemsToShow: 3,
+      },
+    },
+  };
+
   const sportsCards = [
     {
       src: "/images/sports_page/sports_card_baseball.webp",
@@ -41,7 +59,7 @@
 <template>
   <section class="">
     <div class="max-w-7xl mx-auto px-6 py-20 text-center">
-      <div class="px-4flex justify-between items-center max-md:flex-col">
+      <div class="px-4 flex justify-between items-center flex-col">
         <h2 class="text-2xl md:text-4xl font-bold">Other Sports Categories</h2>
         <p class="text-gray-500 mb-8">
           Discover the best tickets to Sports events.
@@ -54,7 +72,7 @@
           :key="`${sports.name}firstcardfromfour`"
         >
           <div class="p-4 w-full h-full">
-            <FourSportsCard
+            <OtherSportsCard
               :src="sports.src"
               :name="sports.name"
               :title="sports.title"
