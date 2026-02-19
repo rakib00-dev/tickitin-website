@@ -6,13 +6,10 @@
   <main class="bg-gray-50 text-gray-800">
     <article class="max-w-7xl mx-auto min-h-screen px-6 md:px-8 py-16">
       <header class="mb-8">
-        <h1 class="text-4xl font-bold mb-2">Tickitin Terms of Service</h1>
-        <p class="text-sm text-gray-500">
-          Effective Date: <strong>January 15, 2026</strong>
-        </p>
+        <h1 class="text-4xl font-bold mb-2">About Tickitin Sports</h1>
       </header>
 
-      <section class="mb-6 leading-relaxed">
+      <!-- <section class="mb-6 leading-relaxed">
         <p>
           These Terms of Service (“Terms”) are a binding agreement between you
           and <strong>Tickitin Experiences LLC</strong> (“Tickitin,” “we,”
@@ -35,7 +32,7 @@
             >
           </p>
         </div>
-      </section>
+      </section> -->
     </article>
   </main>
 </template>
